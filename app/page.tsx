@@ -1,5 +1,10 @@
-import AISearchScorecardExact from "@/components/AISearchScorecardExact";
+import FigmaScaler from "@/components/FigmaScaler";
+import HomeContent from "@/components/HomeContent";
 
 export default function Home() {
-  return <AISearchScorecardExact />;
+  return (
+    <FigmaScaler designHeight={6875}>
+      <HomeContent />
+    </FigmaScaler>
+  );
 }
