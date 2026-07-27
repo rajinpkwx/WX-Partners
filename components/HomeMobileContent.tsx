@@ -95,7 +95,7 @@ export default function HomeMobileContent() {
         </div>
         <a
           href="#cta"
-          className="whitespace-nowrap rounded-[7px] bg-[#b7d998] px-3 py-2 font-instrument text-[12px] font-semibold text-[#252e33]"
+          className="whitespace-nowrap rounded-[7px] bg-[#b7d998] px-3 py-2 font-instrument text-[12px] font-semibold text-[#252e33] transition-opacity duration-150 hover:opacity-80"
         >
           Unlock the 90-day plan
         </a>
@@ -116,7 +116,7 @@ export default function HomeMobileContent() {
         </p>
         <a
           href="#scorecard"
-          className="mt-6 block w-full rounded-[4px] border border-[#b6d997] bg-[#b6d997] px-5 py-4 text-center font-instrument text-[15px] font-semibold uppercase text-[#232c31]"
+          className="mt-6 block w-full rounded-[4px] border border-[#b6d997] bg-[#b6d997] px-5 py-4 text-center font-instrument text-[15px] font-semibold uppercase text-[#232c31] transition-opacity duration-150 hover:opacity-80"
         >
           See your AI search score card
         </a>
@@ -247,7 +247,7 @@ export default function HomeMobileContent() {
         <a
           id="cta"
           href="#"
-          className="mt-5 block w-full rounded-[4px] border border-[#b6d997] bg-[#b6d997] px-5 py-4 text-center font-instrument text-[15px] font-semibold uppercase text-[#232c31]"
+          className="mt-5 block w-full rounded-[4px] border border-[#b6d997] bg-[#b6d997] px-5 py-4 text-center font-instrument text-[15px] font-semibold uppercase text-[#232c31] transition-opacity duration-150 hover:opacity-80"
         >
           Unlock the 90-day plan
         </a>
@@ -290,7 +290,7 @@ export default function HomeMobileContent() {
         </p>
         <a
           href="#"
-          className="mt-6 inline-block whitespace-nowrap rounded-[7px] bg-[#b7d998] px-5 py-3 font-instrument text-[15px] font-semibold text-[#252e33]"
+          className="mt-6 inline-block whitespace-nowrap rounded-[7px] bg-[#b7d998] px-5 py-3 font-instrument text-[15px] font-semibold text-[#252e33] transition-opacity duration-150 hover:opacity-80"
         >
           Book a walkthrough →
         </a>

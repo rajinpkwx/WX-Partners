@@ -253,18 +253,18 @@ export default function HomeContent() {
           </div>
         </div>
       </div>
-      <div className="absolute contents left-[calc(75%+5px)] top-[36px]" data-node-id="2147:182" data-name="CTA1">
-        <div className="absolute bg-[#b7d998] h-[55px] left-[calc(75%+5px)] rounded-[7px] top-[36px] w-[235px]" data-node-id="2147:183" data-name="Logo" />
-        <p className="[word-break:break-word] absolute font-instrument font-semibold leading-[normal] left-[calc(75%+38px)] text-[#252e33] text-[15px] top-[55px] w-[170px]" data-node-id="2147:184" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <a href="#" className="group absolute contents left-[calc(75%+5px)] top-[36px]" data-node-id="2147:182" data-name="CTA1">
+        <div className="absolute bg-[#b7d998] h-[55px] left-[calc(75%+5px)] rounded-[7px] top-[36px] w-[235px] transition-opacity duration-150 group-hover:opacity-80" data-node-id="2147:183" data-name="Logo" />
+        <p className="[word-break:break-word] absolute font-instrument font-semibold leading-[normal] left-[calc(75%+38px)] text-[#252e33] text-[15px] top-[55px] w-[170px] transition-opacity duration-150 group-hover:opacity-80" data-node-id="2147:184" style={{ fontVariationSettings: '"wdth" 100' }}>
           Unlock the 90-day plan
         </p>
-      </div>
-      <div className="absolute contents left-[calc(8.33%+5px)] top-[746px]" data-node-id="2147:185" data-name="CTA2">
-        <div className="absolute bg-[#b7d998] h-[55px] left-[calc(8.33%+5px)] rounded-[7px] top-[746px] w-[235px]" data-node-id="2147:186" data-name="Logo" />
-        <p className="[word-break:break-word] absolute font-instrument font-semibold leading-[normal] left-[calc(8.33%+18px)] text-[#252e33] text-[15px] top-[765px] w-[210px]" data-node-id="2147:187" style={{ fontVariationSettings: '"wdth" 100' }}>
+      </a>
+      <a href="#" className="group absolute contents left-[calc(8.33%+5px)] top-[746px]" data-node-id="2147:185" data-name="CTA2">
+        <div className="absolute bg-[#b7d998] h-[55px] left-[calc(8.33%+5px)] rounded-[7px] top-[746px] w-[235px] transition-opacity duration-150 group-hover:opacity-80" data-node-id="2147:186" data-name="Logo" />
+        <p className="[word-break:break-word] absolute font-instrument font-semibold leading-[normal] left-[calc(8.33%+18px)] text-[#252e33] text-[15px] top-[765px] w-[210px] transition-opacity duration-150 group-hover:opacity-80" data-node-id="2147:187" style={{ fontVariationSettings: '"wdth" 100' }}>
           See your AI search score card
         </p>
-      </div>
+      </a>
       <div className="[word-break:break-word] absolute font-inter font-normal h-[201px] leading-[0] left-[8.33%] not-italic text-[#d9d9d9] text-[0px] top-[4298px] w-[611px] whitespace-pre-wrap" data-node-id="2147:188">
         <p className="font-instrument leading-[30px] mb-0 text-[25px] text-white" style={{ fontVariationSettings: '"wdth" 100' }}>{`You have the content. You don't have the citations.`}</p>
         <p className="font-instrument leading-[30px] mb-0 text-[17px]" style={{ fontVariationSettings: '"wdth" 100' }}>{` `}</p>
@@ -735,12 +735,12 @@ export default function HomeContent() {
           <img loading="lazy" alt="" className="block max-w-none size-full" src={imgVector13} />
         </div>
       </div>
-      <div className="absolute contents left-[calc(8.33%+2px)] top-[4585px]" data-node-id="2147:267" data-name="CTA1">
-        <div className="absolute bg-[#b7d998] h-[55px] left-[calc(8.33%+2px)] rounded-[7px] top-[4585px] w-[235px]" data-node-id="2147:268" data-name="Logo" />
-        <p className="[word-break:break-word] absolute font-instrument font-semibold leading-[normal] left-[calc(8.33%+35px)] text-[#252e33] text-[15px] top-[4604px] w-[170px]" data-node-id="2147:269" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <a href="#" className="group absolute contents left-[calc(8.33%+2px)] top-[4585px]" data-node-id="2147:267" data-name="CTA1">
+        <div className="absolute bg-[#b7d998] h-[55px] left-[calc(8.33%+2px)] rounded-[7px] top-[4585px] w-[235px] transition-opacity duration-150 group-hover:opacity-80" data-node-id="2147:268" data-name="Logo" />
+        <p className="[word-break:break-word] absolute font-instrument font-semibold leading-[normal] left-[calc(8.33%+35px)] text-[#252e33] text-[15px] top-[4604px] w-[170px] transition-opacity duration-150 group-hover:opacity-80" data-node-id="2147:269" style={{ fontVariationSettings: '"wdth" 100' }}>
           Unlock the 90-day plan
         </p>
-      </div>
+      </a>
       <div className="absolute flex h-[1105.726px] items-center justify-center left-[calc(66.67%+60px)] top-[3777.81px] w-[1118.349px]" data-node-id="2147:270">
         <div className="flex-none rotate-[133.38deg]">
           <div className="h-[944.286px] relative w-[629.003px]" />
@@ -781,12 +781,12 @@ export default function HomeContent() {
           A 30-minute walkthrough of the highest-impact moves for Austbrokers SPT.
         </p>
       </div>
-      <div className="absolute contents left-[calc(8.33%-1px)] top-[6158px]" data-node-id="2147:382" data-name="CTA1">
-        <div className="absolute bg-[#b7d998] h-[55px] left-[calc(8.33%-1px)] rounded-[7px] top-[6158px] w-[235px]" data-node-id="2147:383" data-name="Logo" />
-        <p className="whitespace-nowrap absolute font-instrument font-semibold leading-[normal] left-[calc(8.33%+39px)] text-[#252e33] text-[15px] top-[6177px]" data-node-id="2147:384" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <a href="#" className="group absolute contents left-[calc(8.33%-1px)] top-[6158px]" data-node-id="2147:382" data-name="CTA1">
+        <div className="absolute bg-[#b7d998] h-[55px] left-[calc(8.33%-1px)] rounded-[7px] top-[6158px] w-[235px] transition-opacity duration-150 group-hover:opacity-80" data-node-id="2147:383" data-name="Logo" />
+        <p className="whitespace-nowrap absolute font-instrument font-semibold leading-[normal] left-[calc(8.33%+39px)] text-[#252e33] text-[15px] top-[6177px] transition-opacity duration-150 group-hover:opacity-80" data-node-id="2147:384" style={{ fontVariationSettings: '"wdth" 100' }}>
           Book a walkthrough →
         </p>
-      </div>
+      </a>
       <div className="absolute contents left-0 top-[6477px]" data-node-id="2147:385">
         <div className="absolute bg-[#1f272c] h-[398px] left-0 opacity-60 top-[6477px] w-[1441px]" data-node-id="2147:386" />
         <div className="-translate-x-1/2 absolute contents left-[calc(50%+1px)] top-[6625px]" data-node-id="2147:387">
