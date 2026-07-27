@@ -565,7 +565,7 @@ export default function HomeContent() {
         </p>
         <p className="leading-[normal] mb-0 text-[25px]">​</p>
         <p className="font-instrument leading-[normal] mb-0 text-[60px]" style={{ fontVariationSettings: '"wdth" 100' }}>
-          Austbrokers SPT is losing AI-search citations to BizCover..
+          Austbrokers SPT is losing AI-search citations to BizCover.
         </p>
         <p className="leading-[normal] mb-0 text-[40px]">​</p>
         <p className="font-instrument leading-[30px] text-[#d7d7d7] text-[17px]" style={{ fontVariationSettings: '"wdth" 100' }}>{`When buyers ask ChatGPT and Claude for a commercial insurance broker, BizCover is in the answer. You aren't.`}</p>
