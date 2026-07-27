@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
 
 export default function FigmaScaler({
   children,
@@ -12,9 +12,9 @@ export default function FigmaScaler({
   designHeight: number;
 }) {
   const wrapperRef = useRef<HTMLDivElement>(null);
-  const [scale, setScale] = useState(1);
+  const [scale, setScale] = useState(0);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const update = () => {
       const width = wrapperRef.current?.clientWidth ?? window.innerWidth;
       setScale(width / designWidth);

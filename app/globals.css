@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -35,4 +45,22 @@ body {
 
 .font-inter {
   font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+@keyframes grow-bar {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.animate-grow-bar {
+  transform-origin: left;
+  transform: scaleX(0);
+}
+
+.in-view .animate-grow-bar {
+  animation: grow-bar 1.1s cubic-bezier(0.16, 1, 0.3, 1) both;
 }

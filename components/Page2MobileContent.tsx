@@ -467,7 +467,7 @@ export default function Page2MobileContent() {
       </div>
       <div className="-translate-x-1/2 absolute h-[1246px] left-1/2 top-[4059px] w-[1458px]" data-node-id="2106:2185" data-name="Group 28 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img loading="lazy" alt="" className="absolute inset-0 size-full object-cover" src="/result-bg.png" />
+          <img loading="lazy" alt="" className="absolute inset-0 size-full object-cover" src="/result-bg.webp" />
         </div>
       </div>
       <div className="-translate-x-1/2 [word-break:break-word] absolute font-inter font-normal leading-[0] left-1/2 not-italic text-[0px] text-black text-center top-[4148px] w-[374px] whitespace-pre-wrap" data-node-id="2106:2186">

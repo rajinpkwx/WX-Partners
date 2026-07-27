@@ -45,14 +45,14 @@ export default function HomeContent() {
             <div className="absolute contents left-0 top-[321px]" data-node-id="2147:6">
               <div className="absolute h-[1113px] left-0 opacity-30 top-[321px] w-[1440px]" data-node-id="2147:7" data-name="elegant-gradient-background-featuring-smooth-blend-blue-teal-shades-creating-calming-modern-visual-effect-ideal-web-design-presentations-digital-art-backdrops 1">
                 <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                  <img alt="" className="absolute inset-0 size-full object-cover" src={imgElegantGradientBackgroundFeaturingSmoothBlendBlueTealShadesCreatingCalmingModernVisualEffectIdealWebDesignPresentationsDigitalArtBackdrops1} />
+                  <img loading="lazy" alt="" className="absolute inset-0 size-full object-cover" src={imgElegantGradientBackgroundFeaturingSmoothBlendBlueTealShadesCreatingCalmingModernVisualEffectIdealWebDesignPresentationsDigitalArtBackdrops1} />
                 </div>
               </div>
             </div>
             <div className="absolute flex inset-[42.68%_-38.75%_-43.31%_-126.39%] items-center justify-center" data-node-id="2147:8" style={{ containerType: "size" }}>
               <div className="flex-none h-[hypot(-0.950143cqw,92.909cqh)] rotate-[1.55deg] w-[hypot(99.0499cqw,7.09096cqh)]">
                 <div className="relative size-full" data-name="Union">
-                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
+                  <img loading="lazy" alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion} />
                 </div>
               </div>
             </div>
@@ -98,16 +98,16 @@ export default function HomeContent() {
           Coverforce / CIG / Morgan / Trade Risk
         </p>
         <div className="absolute left-[calc(8.33%+48px)] size-[73px] top-[2594px]" data-node-id="2147:23">
-          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+          <img loading="lazy" alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
         </div>
         <div className="absolute left-[calc(8.33%+48px)] size-[73px] top-[2724px]" data-node-id="2147:24">
-          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+          <img loading="lazy" alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
         </div>
         <div className="absolute left-[calc(8.33%+48px)] size-[73px] top-[2862px]" data-node-id="2147:25">
-          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+          <img loading="lazy" alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
         </div>
         <div className="absolute left-[calc(8.33%+45px)] size-[73px] top-[3001px]" data-node-id="2147:26">
-          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse4} />
+          <img loading="lazy" alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse4} />
         </div>
         <p className="[word-break:break-word] absolute font-instrument font-normal h-[22.935px] leading-[0] left-[calc(33.33%+64.76px)] text-[0px] text-white top-[2619px] w-[201.362px] whitespace-pre-wrap" data-node-id="2147:27" style={{ fontVariationSettings: '"wdth" 100' }}>
           <span className="leading-[normal] text-[#b6d997] text-[19px]">{`2 `}</span>
@@ -144,7 +144,7 @@ export default function HomeContent() {
           <div className="flex-none rotate-[-0.1deg]">
             <div className="h-0 relative w-[1204.002px]">
               <div className="absolute inset-[-1px_0_0_0]">
-                <img alt="" className="block max-w-none size-full" src={imgLine1} />
+                <img loading="lazy" alt="" className="block max-w-none size-full" src={imgLine1} />
               </div>
             </div>
           </div>
@@ -152,14 +152,14 @@ export default function HomeContent() {
       </div>
       <div className="absolute h-[1158px] left-0 top-[1002px] w-[1443px]" data-node-id="2147:36" data-name="Back">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[131.66%] left-[-32.99%] max-w-none top-[-1.95%] w-[141.64%]" src={imgBack} />
+          <img loading="lazy" alt="" className="absolute h-[131.66%] left-[-32.99%] max-w-none top-[-1.95%] w-[141.64%]" src={imgBack} />
         </div>
       </div>
       <div className="absolute flex h-[1586px] items-center justify-center left-[-93px] top-[3252px] w-[1627px]" data-node-id="2147:37">
         <div className="flex-none rotate-180">
           <div className="h-[1586px] relative w-[1627px]" data-name="Back3">
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
-              <img alt="" className="absolute h-[108.36%] left-[-30.81%] max-w-none top-[1.28%] w-[141.64%]" src={imgBack} />
+              <img loading="lazy" alt="" className="absolute h-[108.36%] left-[-30.81%] max-w-none top-[1.28%] w-[141.64%]" src={imgBack} />
             </div>
           </div>
         </div>
@@ -168,7 +168,7 @@ export default function HomeContent() {
         <div className="-rotate-90 flex-none">
           <div className="h-[1186px] relative w-0">
             <div className="absolute inset-[0_-0.5px]">
-              <img alt="" className="block max-w-none size-full" src={imgVector14} />
+              <img loading="lazy" alt="" className="block max-w-none size-full" src={imgVector14} />
             </div>
           </div>
         </div>
@@ -203,14 +203,14 @@ export default function HomeContent() {
         <div className="absolute contents left-0 top-0" data-node-id="2147:50">
           <div className="absolute h-[921px] left-0 top-0 w-[1440px]" data-node-id="2147:51" data-name="elegant-gradient-background-featuring-smooth-blend-blue-teal-shades-creating-calming-modern-visual-effect-ideal-web-design-presentations-digital-art-backdrops 1">
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
-              <img alt="" className="absolute inset-0 size-full object-cover" src="/banner-hero.png" />
+              <img alt="" fetchPriority="high" loading="eager" className="absolute inset-0 size-full object-cover" src="/banner-hero.png" />
             </div>
           </div>
         </div>
       </div>
       <div className="absolute contents left-[calc(58.33%+50px)] top-[366px]" data-node-id="2147:158" data-name="37/100">
         <div className="absolute border-[#7d9c9e] border-[0.5px] border-solid h-[311px] left-[calc(58.33%+50px)] mix-blend-color-dodge rounded-[10px] top-[366px] w-[561px]" data-node-id="2147:159" data-name="20948 2">
-          <img alt="" className="absolute inset-0 max-w-none object-bottom opacity-60 pointer-events-none rounded-[10px] size-full" src={img209482} />
+          <img loading="lazy" alt="" className="absolute inset-0 max-w-none object-bottom opacity-60 pointer-events-none rounded-[10px] size-full" src={img209482} />
         </div>
         <div className="[word-break:break-word] absolute font-instrument font-medium h-[146px] leading-[0] left-[calc(87.5%-305px)] text-[17px] text-white top-[505px] w-[496px] whitespace-pre-wrap" data-node-id="2147:160" style={{ fontVariationSettings: '"wdth" 100' }}>
           <p className="leading-[27px] mb-[13px]">1 / 10 AI answers that cited you</p>
@@ -231,7 +231,7 @@ export default function HomeContent() {
           <div className="flex-none rotate-90">
             <div className="h-0 relative w-[82px]">
               <div className="absolute inset-[-1px_0]">
-                <img alt="" className="block max-w-none size-full" src={imgVector15} />
+                <img loading="lazy" alt="" className="block max-w-none size-full" src={imgVector15} />
               </div>
             </div>
           </div>
@@ -241,14 +241,14 @@ export default function HomeContent() {
       <div className="absolute contents inset-[0.76%_75.74%_98.9%_8.33%]" data-node-id="2147:166">
         <div className="absolute inset-[0.76%_75.74%_98.9%_8.33%] overflow-clip" data-node-id="2147:167" data-name="Layer_1">
           <div className="absolute inset-[0_81.51%_0_0]" data-node-id="2147:168" data-name="Vector">
-            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+            <img loading="lazy" alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
           </div>
           <div className="absolute contents inset-[16.99%_0_16.94%_22.92%]" data-node-id="2147:169" data-name="Group">
             <div className="absolute inset-[17.96%_59.06%_18.06%_22.92%]" data-node-id="2147:170" data-name="Group">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+              <img loading="lazy" alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
             </div>
             <div className="absolute inset-[16.99%_0_16.94%_42.74%]" data-node-id="2147:173" data-name="Group">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+              <img loading="lazy" alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
             </div>
           </div>
         </div>
@@ -366,7 +366,7 @@ export default function HomeContent() {
               <div className="flex-none rotate-180">
                 <div className="relative size-[25px]">
                   <div className="absolute inset-[-3%]">
-                    <img alt="" className="block max-w-none size-full" src={imgGroup136} />
+                    <img loading="lazy" alt="" className="block max-w-none size-full" src={imgGroup136} />
                   </div>
                 </div>
               </div>
@@ -375,7 +375,7 @@ export default function HomeContent() {
               <div className="absolute flex h-[351px] items-center justify-center left-[958px] mix-blend-color-dodge top-[233px] w-[363px]" data-node-id="2147:206">
                 <div className="flex-none rotate-180">
                   <div className="border-[#7d9c9e] border-[0.5px] border-solid h-[351px] relative rounded-[4px] w-[363px]" data-name="20948 2">
-                    <img alt="" className="absolute inset-0 max-w-none object-bottom opacity-60 pointer-events-none rounded-[4px] size-full" src={img209483} />
+                    <img loading="lazy" alt="" className="absolute inset-0 max-w-none object-bottom opacity-60 pointer-events-none rounded-[4px] size-full" src={img209483} />
                   </div>
                 </div>
               </div>
@@ -402,7 +402,7 @@ export default function HomeContent() {
                 <div className="flex-none rotate-180">
                   <div className="h-[351px] relative w-[363px]">
                     <div className="absolute inset-[-0.14%]">
-                      <img alt="" className="block max-w-none size-full" src={imgVector10} />
+                      <img loading="lazy" alt="" className="block max-w-none size-full" src={imgVector10} />
                     </div>
                   </div>
                 </div>
@@ -412,7 +412,7 @@ export default function HomeContent() {
               <div className="absolute flex h-[351px] items-center justify-center left-[539px] mix-blend-color-dodge top-[233px] w-[363px]" data-node-id="2147:212">
                 <div className="flex-none rotate-180">
                   <div className="border-[#7d9c9e] border-[0.5px] border-solid h-[351px] relative rounded-[4px] w-[363px]" data-name="20948 2">
-                    <img alt="" className="absolute inset-0 max-w-none object-bottom opacity-60 pointer-events-none rounded-[4px] size-full" src={img209483} />
+                    <img loading="lazy" alt="" className="absolute inset-0 max-w-none object-bottom opacity-60 pointer-events-none rounded-[4px] size-full" src={img209483} />
                   </div>
                 </div>
               </div>
@@ -441,7 +441,7 @@ export default function HomeContent() {
                 <div className="flex-none rotate-180">
                   <div className="h-[351px] relative w-[363px]">
                     <div className="absolute inset-[-0.14%]">
-                      <img alt="" className="block max-w-none size-full" src={imgVector10} />
+                      <img loading="lazy" alt="" className="block max-w-none size-full" src={imgVector10} />
                     </div>
                   </div>
                 </div>
@@ -451,7 +451,7 @@ export default function HomeContent() {
               <div className="absolute flex h-[351px] items-center justify-center left-[120px] mix-blend-color-dodge top-[233px] w-[363px]" data-node-id="2147:218">
                 <div className="flex-none rotate-180">
                   <div className="border-[#7d9c9e] border-[0.5px] border-solid h-[351px] relative rounded-[4px] w-[363px]" data-name="20948 2">
-                    <img alt="" className="absolute inset-0 max-w-none object-bottom opacity-60 pointer-events-none rounded-[4px] size-full" src={img209483} />
+                    <img loading="lazy" alt="" className="absolute inset-0 max-w-none object-bottom opacity-60 pointer-events-none rounded-[4px] size-full" src={img209483} />
                   </div>
                 </div>
               </div>
@@ -480,7 +480,7 @@ export default function HomeContent() {
                 <div className="flex-none rotate-180">
                   <div className="h-[351px] relative w-[363px]">
                     <div className="absolute inset-[-0.14%]">
-                      <img alt="" className="block max-w-none size-full" src={imgVector10} />
+                      <img loading="lazy" alt="" className="block max-w-none size-full" src={imgVector10} />
                     </div>
                   </div>
                 </div>
@@ -490,7 +490,7 @@ export default function HomeContent() {
               <div className="flex-none rotate-180">
                 <div className="relative size-[25px]">
                   <div className="absolute inset-[-3%]">
-                    <img alt="" className="block max-w-none size-full" src={imgGroup136} />
+                    <img loading="lazy" alt="" className="block max-w-none size-full" src={imgGroup136} />
                   </div>
                 </div>
               </div>
@@ -498,7 +498,7 @@ export default function HomeContent() {
             <div className="absolute flex inset-[-74.99%_-53.75%_-111.83%_-124.8%] items-center justify-center" data-node-id="2147:227" style={{ containerType: "size" }}>
               <div className="flex-none h-[hypot(-12.3297cqw,47.1932cqh)] rotate-[21.64deg] w-[hypot(87.6703cqw,52.8068cqh)]">
                 <div className="relative size-full" data-name="Union">
-                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion1} />
+                  <img loading="lazy" alt="" className="absolute block inset-0 max-w-none size-full" src={imgUnion1} />
                 </div>
               </div>
             </div>
@@ -573,7 +573,7 @@ export default function HomeContent() {
       <div className="absolute h-[365px] left-[calc(41.67%+19px)] overflow-clip top-[1133px] w-[607px]" data-node-id="2147:236" data-name="radarchart">
         <div className="absolute h-[61px] left-[364px] top-[192px] w-[60px]" data-node-id="2147:237" data-name="Vector">
           <div className="absolute inset-[-0.46%_-0.44%_-0.41%_-0.45%]">
-            <img alt="" className="block max-w-none size-full" src={imgVector1} />
+            <img loading="lazy" alt="" className="block max-w-none size-full" src={imgVector1} />
           </div>
         </div>
         <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-normal h-[16px] leading-[normal] left-[382.5px] text-[#d9d9d9] text-[10px] text-center top-[176px] w-[29px]" data-node-id="2147:238" style={{ fontVariationSettings: '"wdth" 100' }}>
@@ -581,7 +581,7 @@ export default function HomeContent() {
         </p>
         <div className="absolute h-[120px] left-[335px] top-[161px] w-[122px]" data-node-id="2147:239" data-name="Vector">
           <div className="absolute inset-[-0.23%_-0.22%_-0.21%_-0.22%]">
-            <img alt="" className="block max-w-none size-full" src={imgVector2} />
+            <img loading="lazy" alt="" className="block max-w-none size-full" src={imgVector2} />
           </div>
         </div>
         <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-normal h-[16px] leading-[normal] left-[382.5px] text-[#d9d9d9] text-[10px] text-center top-[145px] w-[29px]" data-node-id="2147:240" style={{ fontVariationSettings: '"wdth" 100' }}>
@@ -589,7 +589,7 @@ export default function HomeContent() {
         </p>
         <div className="absolute h-[180.5px] left-[304.5px] top-[129.5px] w-[182px]" data-node-id="2147:241" data-name="Vector">
           <div className="absolute inset-[-0.16%_-0.15%_-0.14%_-0.15%]">
-            <img alt="" className="block max-w-none size-full" src={imgVector3} />
+            <img loading="lazy" alt="" className="block max-w-none size-full" src={imgVector3} />
           </div>
         </div>
         <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-normal h-[17px] leading-[normal] left-[382.5px] text-[#d9d9d9] text-[10px] text-center top-[114px] w-[29px]" data-node-id="2147:242" style={{ fontVariationSettings: '"wdth" 100' }}>
@@ -597,33 +597,33 @@ export default function HomeContent() {
         </p>
         <div className="absolute h-[236px] left-[275px] top-[100px] w-[241px]" data-node-id="2147:243" data-name="Vector">
           <div className="absolute inset-[-0.12%_-0.11%_-0.11%_-0.11%]">
-            <img alt="" className="block max-w-none size-full" src={imgVector4} />
+            <img loading="lazy" alt="" className="block max-w-none size-full" src={imgVector4} />
           </div>
         </div>
         <div className="absolute h-[206px] left-[290px] top-[118px] w-[211.5px]" data-node-id="2147:244" data-name="Vector">
           <div className="absolute inset-[-0.27%_-0.26%_-0.24%_-0.26%]">
-            <img alt="" className="block max-w-none size-full" src={imgVector5} />
+            <img loading="lazy" alt="" className="block max-w-none size-full" src={imgVector5} />
           </div>
         </div>
         <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-normal h-[18px] leading-[normal] left-[382.5px] text-[#d9d9d9] text-[10px] text-center top-[82px] w-[29px]" data-node-id="2147:245" style={{ fontVariationSettings: '"wdth" 100' }}>
           80%
         </p>
         <div className="absolute h-[298px] left-[245px] top-[67px] w-[301px]" data-node-id="2147:246" data-name="Vector">
-          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector6} />
+          <img loading="lazy" alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector6} />
         </div>
         <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-normal h-[16px] leading-[normal] left-[381.5px] text-[#d9d9d9] text-[10px] text-center top-[51px] w-[37px]" data-node-id="2147:247" style={{ fontVariationSettings: '"wdth" 100' }}>
           100%
         </p>
         <div className="absolute h-[298px] left-[245px] top-[67px] w-[301px]" data-node-id="2147:248" data-name="Vector">
           <div className="absolute inset-[-0.19%_-0.18%_-0.17%_-0.18%]">
-            <img alt="" className="block max-w-none size-full" src={imgVector7} />
+            <img loading="lazy" alt="" className="block max-w-none size-full" src={imgVector7} />
           </div>
         </div>
         <div className="absolute flex h-[140.797px] items-center justify-center left-[327.94px] top-[224.2px] w-[67.313px]" data-node-id="2147:249">
           <div className="flex-none rotate-[115.55deg] skew-x-[-0.33deg]">
             <div className="h-0 relative w-[156.06px]" data-name="Line">
               <div className="absolute inset-[-0.5px_0_0_0]">
-                <img alt="" className="block max-w-none size-full" src={imgLine} />
+                <img loading="lazy" alt="" className="block max-w-none size-full" src={imgLine} />
               </div>
             </div>
           </div>
@@ -632,7 +632,7 @@ export default function HomeContent() {
           <div className="flex-none rotate-[64.45deg] skew-x-[0.33deg]">
             <div className="h-0 relative w-[156.06px]" data-name="Line">
               <div className="absolute inset-[-0.5px_0_0_0]">
-                <img alt="" className="block max-w-none size-full" src={imgLine2} />
+                <img loading="lazy" alt="" className="block max-w-none size-full" src={imgLine2} />
               </div>
             </div>
           </div>
@@ -641,7 +641,7 @@ export default function HomeContent() {
           <div className="flex-none rotate-[12.95deg] skew-x-[0.18deg]">
             <div className="h-[0.102px] relative w-[154.603px]" data-name="Line">
               <div className="absolute inset-[-244.02%_0_-243.95%_0]">
-                <img alt="" className="block max-w-none size-full" src={imgLine3} />
+                <img loading="lazy" alt="" className="block max-w-none size-full" src={imgLine3} />
               </div>
             </div>
           </div>
@@ -650,7 +650,7 @@ export default function HomeContent() {
           <div className="flex-none rotate-[-38.77deg] skew-x-[-0.41deg]">
             <div className="h-[0.689px] relative w-[155.632px]" data-name="Line">
               <div className="absolute inset-[-36.29%_0_-36.3%_0]">
-                <img alt="" className="block max-w-none size-full" src={imgLine4} />
+                <img loading="lazy" alt="" className="block max-w-none size-full" src={imgLine4} />
               </div>
             </div>
           </div>
@@ -659,7 +659,7 @@ export default function HomeContent() {
           <div className="-rotate-90 flex-none">
             <div className="h-[0.5px] relative w-[157.5px]" data-name="Line">
               <div className="absolute inset-[-50%_0]">
-                <img alt="" className="block max-w-none size-full" src={imgLine5} />
+                <img loading="lazy" alt="" className="block max-w-none size-full" src={imgLine5} />
               </div>
             </div>
           </div>
@@ -668,7 +668,7 @@ export default function HomeContent() {
           <div className="flex-none rotate-[-141.23deg] skew-x-[0.41deg]">
             <div className="h-[1.189px] relative w-[155.632px]" data-name="Line">
               <div className="absolute inset-[-21.03%_0]">
-                <img alt="" className="block max-w-none size-full" src={imgLine6} />
+                <img loading="lazy" alt="" className="block max-w-none size-full" src={imgLine6} />
               </div>
             </div>
           </div>
@@ -677,14 +677,14 @@ export default function HomeContent() {
           <div className="flex-none rotate-[167.05deg] skew-x-[-0.18deg]">
             <div className="h-[0.003px] relative w-[154.226px]" data-name="Line">
               <div className="absolute inset-[-0.25px_0]">
-                <img alt="" className="block max-w-none size-full" src={imgLine7} />
+                <img loading="lazy" alt="" className="block max-w-none size-full" src={imgLine7} />
               </div>
             </div>
           </div>
         </div>
         <div className="absolute h-[132px] left-[350px] top-[176.5px] w-[121px]" data-node-id="2147:256" data-name="Vector">
           <div className="absolute inset-[-1.16%_-0.98%_-1.44%_-0.84%]">
-            <img alt="" className="block max-w-none size-full" src={imgVector8} />
+            <img loading="lazy" alt="" className="block max-w-none size-full" src={imgVector8} />
           </div>
         </div>
       </div>
@@ -732,7 +732,7 @@ export default function HomeContent() {
       </div>
       <div className="absolute h-0 left-[118px] top-[1531px] w-[612px]" data-node-id="2147:266">
         <div className="absolute inset-[-0.5px_0]">
-          <img alt="" className="block max-w-none size-full" src={imgVector13} />
+          <img loading="lazy" alt="" className="block max-w-none size-full" src={imgVector13} />
         </div>
       </div>
       <div className="absolute contents left-[calc(8.33%+2px)] top-[4585px]" data-node-id="2147:267" data-name="CTA1">
@@ -766,7 +766,7 @@ export default function HomeContent() {
             <div className="-translate-x-1/2 absolute bg-[#252e33] h-[1225px] left-[calc(50%-11px)] top-[220px] w-[1468px]" data-node-id="2147:378" />
             <div className="absolute h-[1225px] left-[calc(50%-11px)] -translate-x-1/2 top-[220px] w-[1468px] opacity-30" data-node-id="2147:379">
               <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                <img alt="" className="absolute inset-0 size-full object-cover rotate-180" src={imgElegantGradientBackgroundFeaturingSmoothBlendBlueTealShadesCreatingCalmingModernVisualEffectIdealWebDesignPresentationsDigitalArtBackdrops1} />
+                <img loading="lazy" alt="" className="absolute inset-0 size-full object-cover rotate-180" src={imgElegantGradientBackgroundFeaturingSmoothBlendBlueTealShadesCreatingCalmingModernVisualEffectIdealWebDesignPresentationsDigitalArtBackdrops1} />
               </div>
             </div>
           </div>
@@ -838,7 +838,7 @@ export default function HomeContent() {
             <div className="-rotate-90 flex-none">
               <div className="h-[1286px] opacity-60 relative w-0">
                 <div className="absolute inset-[0_-0.5px]">
-                  <img alt="" className="block max-w-none size-full" src={imgVector12} />
+                  <img loading="lazy" alt="" className="block max-w-none size-full" src={imgVector12} />
                 </div>
               </div>
             </div>
@@ -846,7 +846,7 @@ export default function HomeContent() {
         </div>
       </div>
       <div className="-translate-x-1/2 absolute bottom-[5.42%] left-[calc(50%+0.5px)] top-[93.85%] w-[89px]" data-node-id="2147:394" data-name="Vector">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector9} />
+        <img loading="lazy" alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector9} />
       </div>
     </div>
   );

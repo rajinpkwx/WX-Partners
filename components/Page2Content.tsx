@@ -62,12 +62,12 @@ export default function Page2Content() {
         </div>
       </div>
       <div className="-translate-x-1/2 absolute contents left-[calc(20.83%-36px)] top-[596px]" data-node-id="2106:1654">
-        <div className="-translate-x-1/2 absolute contents left-[calc(20.83%-36px)] top-[596px]" data-node-id="2106:1655">
-          <div className="-translate-x-1/2 absolute bg-[#b6d997] border border-[#b6d997] border-solid h-[58px] left-[calc(20.83%-36px)] rounded-[4px] top-[596px] w-[358px]" data-node-id="2106:1656" />
-          <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-semibold leading-[normal] left-[calc(20.83%-36px)] text-[#232c31] text-[18px] text-center top-[614px] uppercase w-[320px]" data-node-id="2106:1657" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <a href="#" className="group -translate-x-1/2 absolute contents left-[calc(20.83%-36px)] top-[596px]" data-node-id="2106:1655">
+          <div className="-translate-x-1/2 absolute bg-[#b6d997] border border-[#b6d997] border-solid h-[58px] left-[calc(20.83%-36px)] rounded-[4px] top-[596px] w-[358px] transition-opacity duration-150 group-hover:opacity-80" data-node-id="2106:1656" />
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-semibold leading-[normal] left-[calc(20.83%-36px)] text-[#232c31] text-[18px] text-center top-[614px] uppercase w-[320px] transition-opacity duration-150 group-hover:opacity-80" data-node-id="2106:1657" style={{ fontVariationSettings: '"wdth" 100' }}>
             See your AI search score card
           </p>
-        </div>
+        </a>
       </div>
       <div className="[word-break:break-word] absolute font-instrument font-normal h-[219px] leading-[0] left-[77px] text-[65px] text-white top-[219px] w-[642px]" data-node-id="2106:1658" style={{ fontVariationSettings: '"wdth" 100' }}>
         <p className="leading-[normal] mb-0">Austbrokers SPT is losing AI-search citations to BizCover.</p>
@@ -100,13 +100,26 @@ export default function Page2Content() {
       </div>
       <div className="-translate-x-1/2 absolute h-[816px] left-[calc(50%+3px)] top-[3373px] w-[1458px]" data-node-id="2106:1670" data-name="Group 28 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img loading="lazy" alt="" className="absolute inset-0 size-full object-cover" src="/result-bg.png" />
+          <img loading="lazy" alt="" className="absolute inset-0 size-full object-cover" src="/result-bg.webp" />
         </div>
       </div>
-      <div className="-translate-x-1/2 absolute bg-[rgba(182,217,151,0.04)] h-[139px] left-[calc(45.83%+25.5px)] mix-blend-plus-lighter top-[2936px] w-[1131px]" data-node-id="2106:1671" />
-      <div className="-translate-x-1/2 absolute contents left-[calc(45.83%+25.5px)] top-[2935px]" data-node-id="2106:1672">
-        <div className="-translate-x-1/2 absolute border border-[rgba(182,217,151,0.6)] border-solid h-[141px] left-[calc(45.83%+25.5px)] rounded-[4px] top-[2935px] w-[1131px]" data-node-id="2106:1673" />
-      </div>
+      {[
+        { top: 2705, height: 97 },
+        { top: 2797, height: 139 },
+        { top: 2936, height: 139 },
+        { top: 3071, height: 139 },
+      ].map((row) => (
+        <div key={row.top} className="contents">
+          <div
+            className="-translate-x-1/2 peer absolute left-[calc(45.83%+25.5px)] top-[var(--row-top)] h-[var(--row-height)] w-[1131px]"
+            style={{ ["--row-top" as string]: `${row.top}px`, ["--row-height" as string]: `${row.height}px` }}
+          />
+          <div
+            className="-translate-x-1/2 pointer-events-none absolute left-[calc(45.83%+25.5px)] top-[var(--row-top)] h-[var(--row-height)] w-[1131px] rounded-[4px] border border-transparent bg-transparent transition-colors duration-150 peer-hover:border-[rgba(182,217,151,0.6)] peer-hover:bg-[rgba(182,217,151,0.04)] peer-hover:mix-blend-plus-lighter"
+            style={{ ["--row-top" as string]: `${row.top}px`, ["--row-height" as string]: `${row.height}px` }}
+          />
+        </div>
+      ))}
       <div className="absolute h-[37px] left-[calc(8.33%+49px)] overflow-clip top-[2715px] w-[192px]" data-node-id="2106:1674" data-name="BizCover_idhWXGJnr8_1 1">
         <div className="absolute contents inset-[0.32%_0]" data-node-id="2106:1675" data-name="Clip path group">
           <div className="absolute inset-[1.07%_0.19%_1.06%_0.19%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-0.367px_-0.274px] mask-size-[192px_36.76px]" data-node-id="2106:1678" style={{ maskImage: `url("${imgGroup}")` }} data-name="Group">
@@ -158,11 +171,6 @@ export default function Page2Content() {
       <p className="[word-break:break-word] absolute font-instrument font-normal h-[45px] leading-[30px] left-[calc(50%+80px)] text-[#d9d9d9] text-[20px] top-[3119px] w-[399px]" data-node-id="2106:1719" style={{ fontVariationSettings: '"wdth" 100' }}>
         Named across Google results; not surfaced in this AI probe sample.
       </p>
-      <div className="-translate-x-1/2 absolute h-0 left-[calc(45.83%+24.5px)] top-[2808px] w-[1129px]" data-node-id="2106:1720">
-        <div className="absolute inset-[-1px_0_0_0]">
-          <img loading="lazy" alt="" className="block max-w-none size-full" src={imgLine1} />
-        </div>
-      </div>
       <div className="-translate-x-1/2 [word-break:break-word] absolute font-inter font-normal h-[57px] leading-[0] left-[calc(50%+0.5px)] not-italic text-[#b6d997] text-[0px] text-center top-[3612px] w-[545px]" data-node-id="2106:1710">
         <p className="font-instrument font-medium leading-[35px] mb-0 text-[27px]" style={{ fontVariationSettings: '"wdth" 100' }}>
           1/10 AI answers that cited you
@@ -212,12 +220,12 @@ export default function Page2Content() {
         <p className="leading-[normal]">​</p>
       </div>
       <div className="-translate-x-1/2 absolute contents left-1/2 top-[4761px]" data-node-id="2106:1750">
-        <div className="-translate-x-1/2 absolute contents left-1/2 top-[4761px]" data-node-id="2106:1751">
-          <div className="-translate-x-1/2 absolute bg-[#b6d997] border border-[#b6d997] border-solid h-[58px] left-1/2 rounded-[4px] top-[4761px] w-[302px]" data-node-id="2106:1752" />
-          <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-semibold leading-[normal] left-1/2 text-[#232c31] text-[18px] text-center top-[4779px] uppercase whitespace-nowrap" data-node-id="2106:1753" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <a href="#" className="group -translate-x-1/2 absolute contents left-1/2 top-[4761px]" data-node-id="2106:1751">
+          <div className="-translate-x-1/2 absolute bg-[#b6d997] border border-[#b6d997] border-solid h-[58px] left-1/2 rounded-[4px] top-[4761px] w-[302px] transition-opacity duration-150 group-hover:opacity-80" data-node-id="2106:1752" />
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-semibold leading-[normal] left-1/2 text-[#232c31] text-[18px] text-center top-[4779px] uppercase whitespace-nowrap transition-opacity duration-150 group-hover:opacity-80" data-node-id="2106:1753" style={{ fontVariationSettings: '"wdth" 100' }}>
             Unlock the 90-day plan
           </p>
-        </div>
+        </a>
       </div>
       <p className="[word-break:break-word] absolute font-instrument font-normal leading-[normal] left-[118px] text-[#d9d9d9] text-[17px] top-[5090px] w-[1247px]" data-node-id="2106:1754" style={{ fontVariationSettings: '"wdth" 100' }}>
         THE PLAYS TO WIN IT BACK
@@ -258,20 +266,20 @@ export default function Page2Content() {
               </div>
             </div>
             <div className="-translate-x-1/2 absolute contents left-1/2 top-[181px]" data-node-id="2106:1764">
-              <div className="-translate-x-1/2 absolute contents left-1/2 top-[181px]" data-node-id="2106:1765">
-                <div className="-translate-x-1/2 absolute flex h-[58px] items-center justify-center left-1/2 top-[181px] w-[280px]" data-node-id="2106:1766">
+              <a href="#" className="group -translate-x-1/2 absolute contents left-1/2 top-[181px]" data-node-id="2106:1765">
+                <div className="-translate-x-1/2 absolute flex h-[58px] items-center justify-center left-1/2 top-[181px] w-[280px] transition-opacity duration-150 group-hover:opacity-80" data-node-id="2106:1766">
                   <div className="flex-none rotate-180">
                     <div className="bg-[#b6d997] border border-[#b6d997] border-solid h-[58px] relative rounded-[4px] w-[280px]" />
                   </div>
                 </div>
-                <div className="-translate-x-1/2 absolute flex items-center justify-center left-[calc(50%-0.5px)] top-[199px]" data-node-id="2106:1767">
+                <div className="-translate-x-1/2 absolute flex items-center justify-center left-[calc(50%-0.5px)] top-[199px] transition-opacity duration-150 group-hover:opacity-80" data-node-id="2106:1767">
                   <div className="flex-none rotate-180">
                     <p className="[word-break:break-word] font-instrument font-semibold leading-[normal] relative text-[#232c31] text-[18px] text-center uppercase whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
                       book a walk-through
                     </p>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -730,12 +738,12 @@ export default function Page2Content() {
       <div className="absolute bottom-0 h-[7127px] left-0 w-[1440px] pointer-events-none top-0" data-node-id="2106:1931">
         <div className="contents pointer-events-auto">
           <div className="absolute bg-[#1f272c] h-[87px] left-0 top-0 w-[1440px]" data-node-id="2106:1725" data-name="Banner" />
-          <div className="-translate-x-1/2 absolute contents left-[calc(87.5%-11px)] top-[21px]" data-node-id="2106:1726">
-            <div className="-translate-x-1/2 absolute border border-[#b6d997] border-solid h-[46px] left-[calc(87.5%-11px)] rounded-[4px] top-[21px] w-[240px]" data-node-id="2106:1727" />
-            <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-medium leading-[normal] left-[calc(87.5%-11px)] text-[#b6d997] text-[15px] text-center top-[35px] uppercase whitespace-nowrap" data-node-id="2106:1728" style={{ fontVariationSettings: '"wdth" 100' }}>
+          <a href="#" className="group -translate-x-1/2 absolute contents left-[calc(87.5%-11px)] top-[21px]" data-node-id="2106:1726">
+            <div className="-translate-x-1/2 absolute border border-[#b6d997] border-solid h-[46px] left-[calc(87.5%-11px)] rounded-[4px] top-[21px] w-[240px] transition-opacity duration-150 group-hover:opacity-80" data-node-id="2106:1727" />
+            <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-medium leading-[normal] left-[calc(87.5%-11px)] text-[#b6d997] text-[15px] text-center top-[35px] uppercase whitespace-nowrap transition-opacity duration-150 group-hover:opacity-80" data-node-id="2106:1728" style={{ fontVariationSettings: '"wdth" 100' }}>
               Unlock the 90-day plan
             </p>
-          </div>
+          </a>
           <div className="absolute contents inset-[0.42%_78.75%_99.2%_5.35%]" data-node-id="2106:1729">
             <div className="absolute contents inset-[0.42%_78.75%_99.2%_5.35%]" data-node-id="2106:1730">
               <div className="absolute inset-[0.42%_78.75%_99.2%_5.35%] overflow-clip" data-node-id="2106:1731" data-name="Layer_1">
