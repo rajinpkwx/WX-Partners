@@ -241,7 +241,7 @@ export default function AISearchScorecard() {
           <div>
             <SectionEyebrow>AI Search Visibility Scorecard</SectionEyebrow>
             <h1 className="text-3xl font-semibold leading-tight md:text-5xl">
-              Austbrokers SPT is losing AI-search citations to BizCover.
+              Austbrokers SPT is losing AI-search citations to BizCover..
             </h1>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-[#c7d0d2] md:text-lg">
               When buyers ask ChatGPT and Claude for a commercial insurance broker, BizCover is in
