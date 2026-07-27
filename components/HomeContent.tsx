@@ -792,13 +792,13 @@ export default function HomeContent() {
         <div className="-translate-x-1/2 absolute contents left-[calc(50%+1px)] top-[6625px]" data-node-id="2147:387">
           <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-normal leading-[0] left-1/2 opacity-60 text-[18px] text-center text-white top-[6797px] w-[842px] whitespace-pre-wrap" data-node-id="2147:388" style={{ fontVariationSettings: '"wdth" 100' }}>
             <a className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[23px] underline" href="https://www.wx.agency/terms-of-service" target="_blank">
-              <span className="[text-underline-position:from-font] decoration-from-font decoration-solid underline" href="https://www.wx.agency/terms-of-service" target="_blank">
+              <span className="[text-underline-position:from-font] decoration-from-font decoration-solid underline">
                 Terms of Service
               </span>
             </a>
             <span className="leading-[23px]">{` - `}</span>
             <a className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[23px] underline" href="https://www.wx.agency/privacy-policy" target="_blank">
-              <span className="[text-underline-position:from-font] decoration-from-font decoration-solid underline" href="https://www.wx.agency/privacy-policy" target="_blank">{`Privacy Policy `}</span>
+              <span className="[text-underline-position:from-font] decoration-from-font decoration-solid underline">{`Privacy Policy `}</span>
             </a>
             <span className="leading-[23px]">{` |  2026 © All Right Reserved WX Consulting`}</span>
           </p>
