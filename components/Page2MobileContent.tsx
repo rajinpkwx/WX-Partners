@@ -51,7 +51,7 @@ export default function Page2MobileContent() {
         </div>
       </div>
       <div className="[word-break:break-word] absolute font-instrument font-normal h-[146px] leading-[0] left-[calc(11.11%-17.89px)] text-[40px] text-white top-[164px] w-[388px]" data-node-id="2106:1956" style={{ fontVariationSettings: '"wdth" 100' }}>
-        <p className="leading-[normal] mb-0">Austbrokers SPT is losing AI-search citations to BizCover.</p>
+        <p className="leading-[normal] mb-0">Austbrokers SPT is losing AI-search citations to BizCover..</p>
         <p className="leading-[normal]">​</p>
       </div>
       <p className="[word-break:break-word] absolute font-instrument font-normal h-[98px] leading-[29px] left-[calc(50%-188px)] text-[19px] text-white top-[342px] w-[371px]" data-node-id="2106:1957" style={{ fontVariationSettings: '"wdth" 100' }}>{`When buyers ask ChatGPT and Claude for a commercial insurance broker, BizCover is in the answer. You aren't.`}</p>
