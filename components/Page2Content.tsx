@@ -70,7 +70,7 @@ export default function Page2Content() {
         </a>
       </div>
       <div className="[word-break:break-word] absolute font-instrument font-normal h-[219px] leading-[0] left-[77px] text-[65px] text-white top-[219px] w-[642px]" data-node-id="2106:1658" style={{ fontVariationSettings: '"wdth" 100' }}>
-        <p className="leading-[normal] mb-0">Austbrokers SPT is losing AI-search citations to BizCover.</p>
+        <p className="leading-[normal] mb-0">Austbrokers SPT is losing AI-search citations to BizCover..</p>
         <p className="leading-[normal]">​</p>
       </div>
       <div className="absolute contents left-[calc(58.33%-14px)] top-[196px]" data-node-id="2106:1659">
