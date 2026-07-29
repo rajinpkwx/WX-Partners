@@ -75,3 +75,20 @@ body {
 .in-view .animate-grow-bar {
   animation: grow-bar 1.1s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
+
+@keyframes clip-bar {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.animate-clip-bar {
+  clip-path: inset(0 100% 0 0);
+}
+
+.in-view .animate-clip-bar {
+  animation: clip-bar 1.1s cubic-bezier(0.16, 1, 0.3, 1) both;
+}

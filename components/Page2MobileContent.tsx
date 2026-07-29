@@ -138,24 +138,27 @@ export default function Page2MobileContent() {
           </div>
         </div>
       </div>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-normal leading-[normal] left-[calc(50%+0.5px)] text-[#d9d9d9] text-[17px] text-center top-[1351px] w-[589px]" data-node-id="2106:1991" style={{ fontVariationSettings: '"wdth" 100' }}>
-        WHERE SPT WINS, WHERE IT LAGS
-      </p>
-      <div className="-translate-x-1/2 [word-break:break-word] absolute font-inter font-normal leading-[0] left-[calc(50%+0.5px)] not-italic text-[0px] text-center text-white top-[1400px] w-[377px]" data-node-id="2106:1993">
-        <p className="font-instrument leading-[normal] mb-0 text-[40px]" style={{ fontVariationSettings: '"wdth" 100' }}>
-          The citation gap is structural and diagnosable
+      <ScrollReveal className="contents" triggerTop={1351}>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-normal leading-[normal] left-[calc(50%+0.5px)] text-[#d9d9d9] text-[17px] text-center top-[1351px] w-[589px] reveal-up" data-node-id="2106:1991" style={{ fontVariationSettings: '"wdth" 100', transitionDelay: "0.2s" }}>
+          WHERE SPT WINS, WHERE IT LAGS
         </p>
-        <p className="font-roboto-serif italic text-[40px]">
-          <span className="leading-[normal] text-[#b6d997]" style={{ fontVariationSettings: '"GRAD" 0, "wdth" 100' }}>
-            —
-          </span>
-          <span className="leading-[normal] text-white" style={{ fontVariationSettings: '"GRAD" 0, "wdth" 100' }}>{` `}</span>
-          <span className="leading-[normal] text-[#b6d997]" style={{ fontVariationSettings: '"GRAD" 0, "wdth" 100' }}>
-            not luck.
-          </span>
-        </p>
-      </div>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-normal leading-[31px] left-[calc(50%+0.5px)] text-[#d9d9d9] text-[22px] text-center top-[1635px] w-[377px]" data-node-id="2106:1994" style={{ fontVariationSettings: '"wdth" 100' }}>{`Here's how you score on each (0–100) vs a target of 70`}</p>
+        <div className="-translate-x-1/2 [word-break:break-word] absolute font-inter font-normal leading-[0] left-[calc(50%+0.5px)] not-italic text-[0px] text-center text-white top-[1400px] w-[377px] reveal-up" data-node-id="2106:1993" style={{ transitionDelay: "0.2s" }}>
+          <p className="font-instrument leading-[normal] mb-0 text-[40px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+            The citation gap is structural and diagnosable
+          </p>
+          <p className="font-roboto-serif italic text-[40px]">
+            <span className="leading-[normal] text-[#b6d997]" style={{ fontVariationSettings: '"GRAD" 0, "wdth" 100' }}>
+              —
+            </span>
+            <span className="leading-[normal] text-white" style={{ fontVariationSettings: '"GRAD" 0, "wdth" 100' }}>{` `}</span>
+            <span className="leading-[normal] text-[#b6d997]" style={{ fontVariationSettings: '"GRAD" 0, "wdth" 100' }}>
+              not luck.
+            </span>
+          </p>
+        </div>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-normal leading-[31px] left-[calc(50%+0.5px)] text-[#d9d9d9] text-[22px] text-center top-[1635px] w-[377px] reveal-up" data-node-id="2106:1994" style={{ fontVariationSettings: '"wdth" 100', transitionDelay: "0.2s" }}>{`Here's how you score on each (0–100) vs a target of 70`}</p>
+      </ScrollReveal>
+      <ScrollReveal className="contents" triggerTop={1791}>
       <div className="absolute contents left-[-32px] top-[1791px]" data-node-id="2106:2112">
         <div className="-translate-x-1/2 absolute bg-[#212b34] h-[159px] left-[calc(50%+0.5px)] top-[1791px] w-[505px]" data-node-id="2106:2105" />
         <div className="absolute contents left-[calc(11.11%-17.89px)] top-[1816px]" data-node-id="2106:2095">
@@ -171,7 +174,7 @@ export default function Page2MobileContent() {
             Target
           </p>
           <div className="absolute contents left-[calc(11.11%-16.89px)] top-[1875px]" data-node-id="2106:2083">
-            <div className="absolute h-[24px] left-[calc(11.11%-16.89px)] top-[1875px] w-[377px]" data-node-id="2106:2078">
+            <div className="absolute h-[24px] animate-clip-bar left-[calc(11.11%-16.89px)] top-[1875px] w-[377px]" data-node-id="2106:2078" style={{ animationDelay: "0.00s" }}>
               <div className="absolute inset-[-3.13%_-0.66%]">
                 <img loading="lazy" alt="" className="block max-w-none size-full" src={imgGroup218} />
               </div>
@@ -197,7 +200,7 @@ export default function Page2MobileContent() {
           </div>
         </div>
         <div className="absolute contents left-[calc(11.11%-16.89px)] top-[2044px]" data-node-id="2106:2082">
-          <div className="absolute h-[24px] left-[calc(11.11%-16.89px)] top-[2044px] w-[377px]" data-node-id="2106:2077">
+          <div className="absolute h-[24px] animate-clip-bar left-[calc(11.11%-16.89px)] top-[2044px] w-[377px]" data-node-id="2106:2077" style={{ animationDelay: "0.08s" }}>
             <div className="absolute inset-[-3.13%_-0.66%]">
               <img loading="lazy" alt="" className="block max-w-none size-full" src={imgGroup217} />
             </div>
@@ -224,7 +227,7 @@ export default function Page2MobileContent() {
             </div>
           </div>
           <div className="absolute contents left-[calc(11.11%-17.89px)] top-[2217px]" data-node-id="2106:2084">
-            <div className="absolute h-[24px] left-[calc(11.11%-17.89px)] top-[2217px] w-[378px]" data-node-id="2106:2076">
+            <div className="absolute h-[24px] animate-clip-bar left-[calc(11.11%-17.89px)] top-[2217px] w-[378px]" data-node-id="2106:2076" style={{ animationDelay: "0.16s" }}>
               <div className="absolute inset-[-3.13%_-0.66%]">
                 <img loading="lazy" alt="" className="block max-w-none size-full" src={imgGroup216} />
               </div>
@@ -253,7 +256,7 @@ export default function Page2MobileContent() {
           </div>
         </div>
         <div className="absolute contents left-[calc(11.11%-17.89px)] top-[2378px]" data-node-id="2106:2085">
-          <div className="absolute h-[24px] left-[calc(11.11%-17.89px)] top-[2378px] w-[378px]" data-node-id="2106:2075">
+          <div className="absolute h-[24px] animate-clip-bar left-[calc(11.11%-17.89px)] top-[2378px] w-[378px]" data-node-id="2106:2075" style={{ animationDelay: "0.24s" }}>
             <div className="absolute inset-[-3.13%_-0.66%]">
               <img loading="lazy" alt="" className="block max-w-none size-full" src={imgGroup215} />
             </div>
@@ -283,7 +286,7 @@ export default function Page2MobileContent() {
             </div>
           </div>
           <div className="absolute contents left-[calc(11.11%-16.89px)] top-[2546px]" data-node-id="2106:2086">
-            <div className="absolute h-[24px] left-[calc(11.11%-16.89px)] top-[2546px] w-[378px]" data-node-id="2106:2074">
+            <div className="absolute h-[24px] animate-clip-bar left-[calc(11.11%-16.89px)] top-[2546px] w-[378px]" data-node-id="2106:2074" style={{ animationDelay: "0.32s" }}>
               <div className="absolute inset-[-3.13%_-0.66%]">
                 <img loading="lazy" alt="" className="block max-w-none size-full" src={imgGroup214} />
               </div>
@@ -312,7 +315,7 @@ export default function Page2MobileContent() {
           </div>
         </div>
         <div className="absolute contents left-[calc(11.11%-16.89px)] top-[2707px]" data-node-id="2106:2087">
-          <div className="absolute h-[24px] left-[calc(11.11%-16.89px)] top-[2707px] w-[377px]" data-node-id="2106:2073">
+          <div className="absolute h-[24px] animate-clip-bar left-[calc(11.11%-16.89px)] top-[2707px] w-[377px]" data-node-id="2106:2073" style={{ animationDelay: "0.40s" }}>
             <div className="absolute inset-[-3.13%_-0.66%]">
               <img loading="lazy" alt="" className="block max-w-none size-full" src={imgGroup213} />
             </div>
@@ -342,7 +345,7 @@ export default function Page2MobileContent() {
             </div>
           </div>
           <div className="absolute contents left-[calc(11.11%-16.89px)] top-[2875px]" data-node-id="2106:2088">
-            <div className="absolute h-[24px] left-[calc(11.11%-16.89px)] top-[2875px] w-[377px]" data-node-id="2106:2072">
+            <div className="absolute h-[24px] animate-clip-bar left-[calc(11.11%-16.89px)] top-[2875px] w-[377px]" data-node-id="2106:2072" style={{ animationDelay: "0.48s" }}>
               <div className="absolute inset-[-3.13%_-0.66%]">
                 <img loading="lazy" alt="" className="block max-w-none size-full" src={imgGroup212} />
               </div>
@@ -356,6 +359,7 @@ export default function Page2MobileContent() {
           </p>
         </div>
       </div>
+      </ScrollReveal>
       <div className="-translate-x-1/2 absolute contents left-1/2 top-[3055px]" data-node-id="2106:2120">
         <div className="absolute contents left-[-500px] top-[3055px]" data-node-id="2106:2113">
           <div className="absolute flex h-[1035px] items-center justify-center left-[-500px] top-[3055px] w-[1339.084px]" data-node-id="2106:2114">
@@ -372,15 +376,17 @@ export default function Page2MobileContent() {
           <img loading="lazy" alt="" className="absolute block inset-0 max-w-none size-full" src={imgMaskGroup} />
         </div>
       </div>
-      <div className="[word-break:break-word] absolute font-inter font-normal leading-[0] left-[calc(11.11%-17.89px)] not-italic text-[0px] text-black top-[3159px] w-[378px] whitespace-pre-wrap" data-node-id="2106:2121">
-        <p className="font-instrument leading-[normal] mb-0 text-[#d9d9d9] text-[17px]" style={{ fontVariationSettings: '"wdth" 100' }}>
-          SEE EXACTLY WHO’S BEATING YOU
-        </p>
-        <p className="leading-[normal] mb-0 text-[25px]">​</p>
-        <p className="font-roboto-serif leading-[normal] text-[40px] text-white" style={{ fontVariationSettings: '"GRAD" 0, "wdth" 100' }}>
-          Citation leaderboard across your category prompts.
-        </p>
-      </div>
+      <ScrollReveal className="contents" triggerTop={3159}>
+        <div className="[word-break:break-word] absolute font-inter font-normal leading-[0] left-[calc(11.11%-17.89px)] not-italic text-[0px] text-black top-[3159px] w-[378px] whitespace-pre-wrap reveal-up" data-node-id="2106:2121" style={{ transitionDelay: "0.2s" }}>
+          <p className="font-instrument leading-[normal] mb-0 text-[#d9d9d9] text-[17px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+            SEE EXACTLY WHO’S BEATING YOU
+          </p>
+          <p className="leading-[normal] mb-0 text-[25px]">​</p>
+          <p className="font-roboto-serif leading-[normal] text-[40px] text-white" style={{ fontVariationSettings: '"GRAD" 0, "wdth" 100' }}>
+            Citation leaderboard across your category prompts.
+          </p>
+        </div>
+      </ScrollReveal>
       <div className="absolute h-[459px] left-[calc(11.11%-17.89px)] top-[3496px] w-[375px] overflow-x-auto overflow-y-hidden [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" data-node-id="2106:2184">
         <div className="absolute contents left-0 top-0" data-node-id="2106:2183">
           <div className="-translate-x-1/2 absolute bg-[rgba(182,217,151,0.04)] h-[139px] left-[calc(50%+378px)] mix-blend-plus-lighter top-[225px] w-[1131px]" data-node-id="2106:2122" />
@@ -472,15 +478,17 @@ export default function Page2MobileContent() {
           <img loading="lazy" alt="" className="absolute inset-0 size-full object-cover" src="/result-bg.webp" />
         </div>
       </div>
-      <div className="-translate-x-1/2 [word-break:break-word] absolute font-inter font-normal leading-[0] left-1/2 not-italic text-[0px] text-black text-center top-[4148px] w-[374px] whitespace-pre-wrap" data-node-id="2106:2186">
-        <p className="font-instrument leading-[normal] mb-0 text-[#d9d9d9] text-[17px]" style={{ fontVariationSettings: '"wdth" 100' }}>
-          THE RESULT
-        </p>
-        <p className="leading-[normal] mb-0 text-[17px]">​</p>
-        <p className="font-instrument leading-[normal] text-[40px] text-white" style={{ fontVariationSettings: '"wdth" 100' }}>
-          We ran the buyer prompts live
-        </p>
-      </div>
+      <ScrollReveal className="contents" triggerTop={4148}>
+        <div className="-translate-x-1/2 [word-break:break-word] absolute font-inter font-normal leading-[0] left-1/2 not-italic text-[0px] text-black text-center top-[4148px] w-[374px] whitespace-pre-wrap reveal-up" data-node-id="2106:2186" style={{ transitionDelay: "0.2s" }}>
+          <p className="font-instrument leading-[normal] mb-0 text-[#d9d9d9] text-[17px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+            THE RESULT
+          </p>
+          <p className="leading-[normal] mb-0 text-[17px]">​</p>
+          <p className="font-instrument leading-[normal] text-[40px] text-white" style={{ fontVariationSettings: '"wdth" 100' }}>
+            We ran the buyer prompts live
+          </p>
+        </div>
+      </ScrollReveal>
       <div className="-translate-x-1/2 [word-break:break-word] absolute font-inter font-normal h-[105px] leading-[0] left-[calc(50%+0.5px)] not-italic text-[#b6d997] text-[0px] text-center top-[4318px] w-[371px]" data-node-id="2106:2187">
         <p className="font-instrument font-medium leading-[35px] mb-0 text-[27px]" style={{ fontVariationSettings: '"wdth" 100' }}>
           1/10 AI answers that cited you
@@ -541,21 +549,23 @@ export default function Page2MobileContent() {
           </p>
         </div>
       </div>
-      <p className="[word-break:break-word] absolute font-instrument font-normal leading-[30px] left-[calc(50%-189px)] text-[25px] text-white top-[5627px] w-[378px]" data-node-id="2106:2205" style={{ fontVariationSettings: '"wdth" 100' }}>{`You have the content. You don't have the citations.`}</p>
-      <p className="[word-break:break-word] absolute font-instrument font-normal leading-[normal] left-[calc(22.22%-67.78px)] text-[#d9d9d9] text-[17px] top-[5411px] whitespace-nowrap" data-node-id="2106:2206" style={{ fontVariationSettings: '"wdth" 100' }}>
-        THE DIAGNOSIS
-      </p>
-      <div className="[word-break:break-word] absolute font-instrument font-normal h-[136px] leading-[0] left-[calc(50%-190px)] text-[#b6d997] text-[0px] top-[5451px] w-[379px] whitespace-pre-wrap" data-node-id="2106:2207" style={{ fontVariationSettings: '"wdth" 100' }}>
-        <p className="mb-0 text-[40px]">
-          <span className="leading-[normal] text-white">{`Why SPT is invisible `}</span>
-          <span className="leading-[normal]">
-            <br aria-hidden />
-          </span>
-          <span className="[word-break:break-word] font-roboto-serif font-normal italic leading-[normal]" style={{ fontVariationSettings: '"GRAD" 0, "wdth" 100' }}>{`— `}</span>
-          <span className="[word-break:break-word] font-roboto-serif font-normal italic leading-[normal]" style={{ fontVariationSettings: '"GRAD" 0, "wdth" 100' }}>{`and why that's fixable.`}</span>
+      <ScrollReveal className="contents" triggerTop={5411}>
+        <p className="[word-break:break-word] absolute font-instrument font-normal leading-[normal] left-[calc(22.22%-67.78px)] text-[#d9d9d9] text-[17px] top-[5411px] whitespace-nowrap reveal-up" data-node-id="2106:2206" style={{ fontVariationSettings: '"wdth" 100', transitionDelay: "0.2s" }}>
+          THE DIAGNOSIS
         </p>
-        <p className="leading-[normal] text-[40px]">​</p>
-      </div>
+        <div className="[word-break:break-word] absolute font-instrument font-normal h-[136px] leading-[0] left-[calc(50%-190px)] text-[#b6d997] text-[0px] top-[5451px] w-[379px] whitespace-pre-wrap reveal-up" data-node-id="2106:2207" style={{ fontVariationSettings: '"wdth" 100', transitionDelay: "0.2s" }}>
+          <p className="mb-0 text-[40px]">
+            <span className="leading-[normal] text-white">{`Why SPT is invisible `}</span>
+            <span className="leading-[normal]">
+              <br aria-hidden />
+            </span>
+            <span className="[word-break:break-word] font-roboto-serif font-normal italic leading-[normal]" style={{ fontVariationSettings: '"GRAD" 0, "wdth" 100' }}>{`— `}</span>
+            <span className="[word-break:break-word] font-roboto-serif font-normal italic leading-[normal]" style={{ fontVariationSettings: '"GRAD" 0, "wdth" 100' }}>{`and why that's fixable.`}</span>
+          </p>
+          <p className="leading-[normal] text-[40px]">​</p>
+        </div>
+        <p className="[word-break:break-word] absolute font-instrument font-normal leading-[30px] left-[calc(50%-189px)] text-[25px] text-white top-[5627px] w-[378px] reveal-up" data-node-id="2106:2205" style={{ fontVariationSettings: '"wdth" 100', transitionDelay: "0.2s" }}>{`You have the content. You don't have the citations.`}</p>
+      </ScrollReveal>
       <div className="[word-break:break-word] absolute font-instrument font-normal h-[253px] leading-[0] left-[calc(50%-190px)] text-[#d9d9d9] text-[20px] top-[5737px] w-[379px] whitespace-pre-wrap" data-node-id="2106:2208" style={{ fontVariationSettings: '"wdth" 100' }}>
         <p className="leading-[28px] mb-[22px]">{`SPT runs a full 138-page site — service pages, an insurance glossary, 40+ posts kept current into 2026 — and ranks for 319 keywords in Google. `}</p>
         <p className="leading-[28px]">Yet across ten live AI probes on the questions your buyers ask, SPT was named once, and only when the prompt already said Miranda.</p>
@@ -581,12 +591,14 @@ export default function Page2MobileContent() {
           </p>
         </div>
       </div>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-normal leading-[normal] left-[calc(50%+0.5px)] text-[#d9d9d9] text-[17px] text-center top-[6527px] w-[1247px]" data-node-id="2106:2217" style={{ fontVariationSettings: '"wdth" 100' }}>
-        THE PLAYS TO WIN IT BACK
-      </p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-normal leading-[normal] left-[220.5px] text-[40px] text-center text-white top-[6581px] w-[403px]" data-node-id="2106:2218" style={{ fontVariationSettings: '"wdth" 100' }}>
-        Three moves, prioritized by impact.
-      </p>
+      <ScrollReveal className="contents" triggerTop={6527}>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-normal leading-[normal] left-[calc(50%+0.5px)] text-[#d9d9d9] text-[17px] text-center top-[6527px] w-[1247px] reveal-up" data-node-id="2106:2217" style={{ fontVariationSettings: '"wdth" 100', transitionDelay: "0.2s" }}>
+          THE PLAYS TO WIN IT BACK
+        </p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-normal leading-[normal] left-[220.5px] text-[40px] text-center text-white top-[6581px] w-[403px] reveal-up" data-node-id="2106:2218" style={{ fontVariationSettings: '"wdth" 100', transitionDelay: "0.2s" }}>
+          Three moves, prioritized by impact.
+        </p>
+      </ScrollReveal>
       <ScrollReveal className="contents" triggerTop={6772}>
         <div className="absolute border-[#7d9c9e] border-[0.5px] border-solid h-[320px] left-[calc(11.11%-17.89px)] mix-blend-color-dodge top-[6772px] w-[378px] reveal-up" data-node-id="2106:2220" data-name="20948 2">
           <img loading="lazy" alt="" className="absolute inset-0 max-w-none object-bottom opacity-60 pointer-events-none size-full" src={img209482} />

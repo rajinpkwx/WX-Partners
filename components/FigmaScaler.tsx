@@ -1,3 +1,7 @@
+"use client";
+
+import { useLayoutEffect, useRef, useState } from "react";
+
 export default function FigmaScaler({
   children,
   designWidth = 1440,
@@ -7,19 +11,36 @@ export default function FigmaScaler({
   designWidth?: number;
   designHeight: number;
 }) {
+  const wrapperRef = useRef<HTMLDivElement>(null);
+  const [scale, setScale] = useState<number | null>(null);
+
+  useLayoutEffect(() => {
+    const update = () => {
+      const width = wrapperRef.current?.clientWidth ?? window.innerWidth;
+      setScale(width / designWidth);
+    };
+    update();
+    window.addEventListener("resize", update);
+    return () => window.removeEventListener("resize", update);
+  }, [designWidth]);
+
+  const effectiveScale = scale ?? 1;
+
   return (
     <div
+      ref={wrapperRef}
+      suppressHydrationWarning
       style={{
-        containerType: "inline-size",
         width: "100%",
+        height: scale === null ? "auto" : designHeight * scale,
         overflow: "hidden",
-        height: `calc(${designHeight} / ${designWidth} * 100cqw)`,
       }}
     >
       <div
+        suppressHydrationWarning
         style={{
           width: designWidth,
-          transform: `scale(calc(100cqw / ${designWidth}px))`,
+          transform: `scale(${effectiveScale})`,
           transformOrigin: "top left",
         }}
       >
