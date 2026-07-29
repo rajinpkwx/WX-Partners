@@ -56,6 +56,17 @@ body {
   }
 }
 
+.reveal-up {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.in-view .reveal-up {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .animate-grow-bar {
   transform-origin: left;
   transform: scaleX(0);

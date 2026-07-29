@@ -1,3 +1,5 @@
+import ScrollReveal from "./ScrollReveal";
+
 const imgBack = "/figma4/e73f2a1ff912fb5d328ec057646b283772d8c904.png";
 const imgElegantGradientBackgroundFeaturingSmoothBlendBlueTealShadesCreatingCalmingModernVisualEffectIdealWebDesignPresentationsDigitalArtBackdrops1 = "/figma4/399e51df58173a17b72c9e58419d91accda456dc.png";
 const imgRectangle31 = "/figma4/fbe9e9cac0bf8894ac498e0610f162153f6a1695.png";
@@ -50,20 +52,20 @@ export default function Page2MobileContent() {
           <img loading="lazy" alt="" className="absolute inset-0 size-full object-cover" src={imgElegantGradientBackgroundFeaturingSmoothBlendBlueTealShadesCreatingCalmingModernVisualEffectIdealWebDesignPresentationsDigitalArtBackdrops1} />
         </div>
       </div>
-      <div className="[word-break:break-word] absolute font-instrument font-normal h-[146px] leading-[0] left-[calc(11.11%-17.89px)] text-[40px] text-white top-[164px] w-[388px]" data-node-id="2106:1956" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <div className="[word-break:break-word] absolute font-instrument font-normal h-[210px] leading-[0] left-[calc(11.11%-17.89px)] text-[40px] text-white top-[164px] w-[388px]" data-node-id="2106:1956" style={{ fontVariationSettings: '"wdth" 100' }}>
         <p className="leading-[normal] mb-0">Austbrokers SPT is losing AI-search citations to BizCover..</p>
         <p className="leading-[normal]">​</p>
       </div>
-      <p className="[word-break:break-word] absolute font-instrument font-normal h-[98px] leading-[29px] left-[calc(50%-188px)] text-[19px] text-white top-[342px] w-[371px]" data-node-id="2106:1957" style={{ fontVariationSettings: '"wdth" 100' }}>{`When buyers ask ChatGPT and Claude for a commercial insurance broker, BizCover is in the answer. You aren't.`}</p>
-      <div className="-translate-x-1/2 absolute contents left-[calc(50%-10px)] top-[478px]" data-node-id="2106:1958">
-        <div className="-translate-x-1/2 absolute contents left-[calc(50%-10px)] top-[478px]" data-node-id="2106:1959">
-          <div className="-translate-x-1/2 absolute bg-[#b6d997] border border-[#b6d997] border-solid h-[58px] left-[calc(50%-10px)] rounded-[4px] top-[478px] w-[358px]" data-node-id="2106:1960" />
-          <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-semibold leading-[normal] left-[calc(50%-10px)] text-[#232c31] text-[18px] text-center top-[496px] uppercase w-[320px]" data-node-id="2106:1961" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] absolute font-instrument font-normal h-[98px] leading-[29px] left-[calc(50%-188px)] text-[19px] text-white top-[406px] w-[371px]" data-node-id="2106:1957" style={{ fontVariationSettings: '"wdth" 100' }}>{`When buyers ask ChatGPT and Claude for a commercial insurance broker, BizCover is in the answer. You aren't.`}</p>
+      <div className="-translate-x-1/2 absolute contents left-[calc(50%-10px)] top-[542px]" data-node-id="2106:1958">
+        <div className="-translate-x-1/2 absolute contents left-[calc(50%-10px)] top-[542px]" data-node-id="2106:1959">
+          <div className="-translate-x-1/2 absolute bg-[#b6d997] border border-[#b6d997] border-solid h-[58px] left-[calc(50%-10px)] rounded-[4px] top-[542px] w-[358px]" data-node-id="2106:1960" />
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-semibold leading-[normal] left-[calc(50%-10px)] text-[#232c31] text-[18px] text-center top-[560px] uppercase w-[320px]" data-node-id="2106:1961" style={{ fontVariationSettings: '"wdth" 100' }}>
             See your AI search score card
           </p>
         </div>
       </div>
-      <div className="absolute h-[166px] left-[calc(11.11%-17.89px)] top-[640px] w-[358px] overflow-x-auto overflow-y-hidden [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" data-node-id="2106:1983">
+      <div className="absolute h-[166px] left-[calc(11.11%-17.89px)] top-[704px] w-[358px] overflow-x-auto overflow-y-hidden [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" data-node-id="2106:1983">
         <div className="absolute contents left-0 top-0" data-node-id="2106:1982">
           <div className="absolute contents left-0 top-0" data-node-id="2106:1981">
             <div className="absolute contents left-0 top-0" data-node-id="2106:1978">
@@ -585,46 +587,46 @@ export default function Page2MobileContent() {
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-normal leading-[normal] left-[220.5px] text-[40px] text-center text-white top-[6581px] w-[403px]" data-node-id="2106:2218" style={{ fontVariationSettings: '"wdth" 100' }}>
         Three moves, prioritized by impact.
       </p>
-      <div className="absolute contents left-[calc(11.11%-17.89px)] top-[6772px]" data-node-id="2106:2290">
-        <div className="absolute border-[#7d9c9e] border-[0.5px] border-solid h-[320px] left-[calc(11.11%-17.89px)] mix-blend-color-dodge top-[6772px] w-[378px]" data-node-id="2106:2220" data-name="20948 2">
+      <ScrollReveal className="contents" triggerTop={6772}>
+        <div className="absolute border-[#7d9c9e] border-[0.5px] border-solid h-[320px] left-[calc(11.11%-17.89px)] mix-blend-color-dodge top-[6772px] w-[378px] reveal-up" data-node-id="2106:2220" data-name="20948 2">
           <img loading="lazy" alt="" className="absolute inset-0 max-w-none object-bottom opacity-60 pointer-events-none size-full" src={img209482} />
         </div>
-        <p className="[word-break:break-word] absolute font-instrument font-normal h-[133px] leading-[27px] left-[calc(50%-169px)] text-[18px] text-white top-[6928px] w-[338px]" data-node-id="2106:2221" style={{ fontVariationSettings: '"wdth" 100' }}>{`Add FAQ / Service / Article schema and a direct answer block to the pages you already have. You're not writing new content — you're making existing content quotable.`}</p>
-        <p className="[word-break:break-word] absolute font-instrument font-normal leading-[1.198] left-[calc(44.44%-144.56px)] text-[#b6d997] text-[30px] top-[6841px] w-[300px]" data-node-id="2106:2222" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-instrument font-normal h-[133px] leading-[27px] left-[calc(50%-169px)] text-[18px] text-white top-[6928px] w-[338px] reveal-up" data-node-id="2106:2221" style={{ fontVariationSettings: '"wdth" 100', transitionDelay: "0.2s" }}>{`Add FAQ / Service / Article schema and a direct answer block to the pages you already have. You're not writing new content — you're making existing content quotable.`}</p>
+        <p className="[word-break:break-word] absolute font-instrument font-normal leading-[1.198] left-[calc(44.44%-144.56px)] text-[#b6d997] text-[30px] top-[6841px] w-[300px] reveal-up" data-node-id="2106:2222" style={{ fontVariationSettings: '"wdth" 100', transitionDelay: "0.1s" }}>
           Make the answers machine-readable
         </p>
-        <p className="[word-break:break-word] absolute font-roboto-serif font-light leading-[34px] left-[calc(16.67%-22.33px)] text-[#b6d997] text-[27px] top-[6798px] whitespace-nowrap" data-node-id="2106:2223" style={{ fontVariationSettings: '"GRAD" 0, "wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-roboto-serif font-light leading-[34px] left-[calc(16.67%-22.33px)] text-[#b6d997] text-[27px] top-[6798px] whitespace-nowrap reveal-up" data-node-id="2106:2223" style={{ fontVariationSettings: '"GRAD" 0, "wdth" 100' }}>
           01
         </p>
-      </div>
-      <div className="absolute contents left-[calc(11.11%-17.89px)] top-[7242px]" data-node-id="2106:2289">
-        <div className="absolute border-[#7d9c9e] border-[0.5px] border-solid h-[337px] left-[calc(11.11%-17.89px)] mix-blend-color-dodge top-[7242px] w-[378px]" data-node-id="2106:2286" data-name="20948 3">
+      </ScrollReveal>
+      <ScrollReveal className="contents" triggerTop={7242}>
+        <div className="absolute border-[#7d9c9e] border-[0.5px] border-solid h-[337px] left-[calc(11.11%-17.89px)] mix-blend-color-dodge top-[7242px] w-[378px] reveal-up" data-node-id="2106:2286" data-name="20948 3">
           <img loading="lazy" alt="" className="absolute inset-0 max-w-none object-bottom opacity-60 pointer-events-none size-full" src={img209483} />
         </div>
-        <p className="[word-break:break-word] absolute font-instrument font-normal h-[117px] leading-[27px] left-[calc(50%-169px)] text-[18px] text-white top-[7434px] w-[337px]" data-node-id="2106:2226" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-instrument font-normal h-[117px] leading-[27px] left-[calc(50%-169px)] text-[18px] text-white top-[7434px] w-[337px] reveal-up" data-node-id="2106:2226" style={{ fontVariationSettings: '"wdth" 100', transitionDelay: "0.2s" }}>
           Rebuild the infrastructure around how the business actually operates today, not how it operated when the systems were first set up.
         </p>
-        <p className="[word-break:break-word] absolute font-instrument font-normal leading-[1.198] left-[calc(50%-169px)] text-[#b6d997] text-[30px] top-[7339px] w-[337px]" data-node-id="2106:2227" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-instrument font-normal leading-[1.198] left-[calc(50%-169px)] text-[#b6d997] text-[30px] top-[7339px] w-[337px] reveal-up" data-node-id="2106:2227" style={{ fontVariationSettings: '"wdth" 100', transitionDelay: "0.1s" }}>
           Consolidate and clarify the entity
         </p>
-        <p className="[word-break:break-word] absolute font-roboto-serif font-light leading-[34px] left-[calc(16.67%-22.33px)] text-[#b6d997] text-[27px] top-[7296px] whitespace-nowrap" data-node-id="2106:2228" style={{ fontVariationSettings: '"GRAD" 0, "wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-roboto-serif font-light leading-[34px] left-[calc(16.67%-22.33px)] text-[#b6d997] text-[27px] top-[7296px] whitespace-nowrap reveal-up" data-node-id="2106:2228" style={{ fontVariationSettings: '"GRAD" 0, "wdth" 100' }}>
           02
         </p>
-      </div>
-      <div className="absolute contents left-[calc(11.11%-17.89px)] top-[7729px]" data-node-id="2106:2288">
-        <div className="absolute border-[#7d9c9e] border-[0.5px] border-solid h-[337px] left-[calc(11.11%-17.89px)] mix-blend-color-dodge top-[7729px] w-[378px]" data-node-id="2106:2287" data-name="20948 4">
+      </ScrollReveal>
+      <ScrollReveal className="contents" triggerTop={7729}>
+        <div className="absolute border-[#7d9c9e] border-[0.5px] border-solid h-[337px] left-[calc(11.11%-17.89px)] mix-blend-color-dodge top-[7729px] w-[378px] reveal-up" data-node-id="2106:2287" data-name="20948 4">
           <img loading="lazy" alt="" className="absolute inset-0 max-w-none object-bottom opacity-60 pointer-events-none size-full" src={img209483} />
         </div>
-        <p className="[word-break:break-word] absolute font-instrument font-normal h-[81px] leading-[27px] left-[calc(50%-169px)] text-[18px] text-white top-[7913px] w-[337px]" data-node-id="2106:2231" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-instrument font-normal h-[81px] leading-[27px] left-[calc(50%-169px)] text-[18px] text-white top-[7913px] w-[337px] reveal-up" data-node-id="2106:2231" style={{ fontVariationSettings: '"wdth" 100', transitionDelay: "0.2s" }}>
           Get SPT into the sources engines cite for this category — directories, review profiles, local press, and PR off the South Sydney sponsorship.
         </p>
-        <p className="[word-break:break-word] absolute font-instrument font-normal leading-[1.198] left-[calc(50%-169px)] text-[#b6d997] text-[30px] top-[7818px] w-[336px]" data-node-id="2106:2232" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-instrument font-normal leading-[1.198] left-[calc(50%-169px)] text-[#b6d997] text-[30px] top-[7818px] w-[336px] reveal-up" data-node-id="2106:2232" style={{ fontVariationSettings: '"wdth" 100', transitionDelay: "0.1s" }}>
           Earn the third-party mentions AI reads
         </p>
-        <p className="[word-break:break-word] absolute font-roboto-serif font-light leading-[34px] left-[calc(16.67%-21.33px)] text-[#b6d997] text-[27px] top-[7769px] whitespace-nowrap" data-node-id="2106:2233" style={{ fontVariationSettings: '"GRAD" 0, "wdth" 100' }}>
+        <p className="[word-break:break-word] absolute font-roboto-serif font-light leading-[34px] left-[calc(16.67%-21.33px)] text-[#b6d997] text-[27px] top-[7769px] whitespace-nowrap reveal-up" data-node-id="2106:2233" style={{ fontVariationSettings: '"GRAD" 0, "wdth" 100' }}>
           02
         </p>
-      </div>
+      </ScrollReveal>
       <div className="absolute flex items-center justify-center left-[calc(44.44%-2.56px)] size-[54px] top-[7140px]" data-node-id="2106:2234">
         <div className="flex-none rotate-90">
           <div className="relative size-[54px]">

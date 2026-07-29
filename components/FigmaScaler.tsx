@@ -1,7 +1,3 @@
-"use client";
-
-import { useLayoutEffect, useRef, useState } from "react";
-
 export default function FigmaScaler({
   children,
   designWidth = 1440,
@@ -11,22 +7,22 @@ export default function FigmaScaler({
   designWidth?: number;
   designHeight: number;
 }) {
-  const wrapperRef = useRef<HTMLDivElement>(null);
-  const [scale, setScale] = useState(0);
-
-  useLayoutEffect(() => {
-    const update = () => {
-      const width = wrapperRef.current?.clientWidth ?? window.innerWidth;
-      setScale(width / designWidth);
-    };
-    update();
-    window.addEventListener("resize", update);
-    return () => window.removeEventListener("resize", update);
-  }, [designWidth]);
-
   return (
-    <div ref={wrapperRef} style={{ width: "100%", height: designHeight * scale, overflow: "hidden" }}>
-      <div style={{ width: designWidth, transform: `scale(${scale})`, transformOrigin: "top left" }}>
+    <div
+      style={{
+        containerType: "inline-size",
+        width: "100%",
+        overflow: "hidden",
+        height: `calc(${designHeight} / ${designWidth} * 100cqw)`,
+      }}
+    >
+      <div
+        style={{
+          width: designWidth,
+          transform: `scale(calc(100cqw / ${designWidth}px))`,
+          transformOrigin: "top left",
+        }}
+      >
         {children}
       </div>
     </div>
