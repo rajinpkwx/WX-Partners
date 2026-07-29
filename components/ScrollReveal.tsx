@@ -15,6 +15,7 @@ export default function ScrollReveal({
 }) {
   const sentinelRef = useRef<HTMLDivElement>(null);
   const [inView, setInView] = useState(false);
+  
 
   useEffect(() => {
     if (inView) return;
