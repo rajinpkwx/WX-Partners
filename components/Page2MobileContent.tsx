@@ -30,9 +30,6 @@ const imgGroup80 = "/figma4/f101d4164546ef3cc9c9ba8c64e644fc0395bbe8.svg";
 const imgGroup193 = "/figma4/bd9cf049ecb35454f3c252d59206b1a14dcbaf5b.svg";
 const imgVector2 = "/figma4/3b94e57a31cbde4a7190397f9ac655d31357d56c.svg";
 const imgVector12 = "/figma4/b0cd9bf8d7c509fa038de847d43255841abba101.svg";
-const imgVector3 = "/figma4/0ff083a15d125c08f51adb7784b94950acf40339.svg";
-const imgGroup3 = "/figma4/fec80c7c17e1982177052a736cb9fe896fe4b770.svg";
-const imgGroup4 = "/figma4/2bc1ebb649e830e1731a0ee1568fa7c69ffe79c7.svg";
 
 export default function Page2MobileContent() {
   return (
@@ -726,38 +723,6 @@ export default function Page2MobileContent() {
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-normal leading-[23px] left-1/2 text-[18px] text-[rgba(215,215,215,0.5)] text-center top-[9097px] w-[842px]" data-node-id="2106:2265" style={{ fontVariationSettings: '"wdth" 100' }}>
         2026 © All Right Reserved WX Partners
       </p>
-      <div className="absolute bottom-0 h-[9064px] left-0 w-[440px] pointer-events-none top-0" data-node-id="2147:396">
-        <div className="contents pointer-events-auto">
-          <div className="absolute bottom-0 h-[87px] left-0 w-[440px] pointer-events-none top-0" data-node-id="2106:1933">
-            <div className="contents pointer-events-auto">
-              <div className="absolute bg-[#1f272c] h-[87px] left-0 top-0 w-[440px]" data-node-id="2106:1934" data-name="Banner" />
-              <div className="absolute contents left-[32px] top-[33px]" data-node-id="2106:1938">
-                <div className="absolute contents left-[32px] top-[33px]" data-node-id="2106:1939">
-                  <div className="absolute left-[32px] top-[33px] w-[170px] h-[19.87px] overflow-clip" data-node-id="2106:1940" data-name="Layer_1">
-                    <div className="absolute inset-[0_81.51%_0_0]" data-node-id="2106:1941" data-name="Vector">
-                      <img loading="lazy" alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector3} />
-                    </div>
-                    <div className="absolute contents inset-[16.99%_0_16.94%_22.92%]" data-node-id="2106:1942" data-name="Group">
-                      <div className="absolute inset-[17.96%_59.06%_18.06%_22.92%]" data-node-id="2106:1943" data-name="Group">
-                        <img loading="lazy" alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup3} />
-                      </div>
-                      <div className="absolute inset-[16.99%_0_16.94%_42.74%]" data-node-id="2106:1946" data-name="Group">
-                        <img loading="lazy" alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup4} />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="-translate-x-1/2 absolute border border-[#b6d997] border-solid h-[53px] left-[calc(72.22%+12.22px)] rounded-[4px] top-[17px] w-[158px]" data-node-id="2106:1936" />
-          <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-medium leading-[normal] left-[calc(72.22%+12.72px)] text-[#b6d997] text-[15px] text-center top-[26px] uppercase w-[145px]" data-node-id="2106:1937" style={{ fontVariationSettings: '"wdth" 100' }}>
-            Unlock the
-            <br aria-hidden />
-            90-day plan
-          </p>
-        </div>
-      </div>
     </div>
   );
 }

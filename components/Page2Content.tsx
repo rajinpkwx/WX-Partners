@@ -34,9 +34,6 @@ const imgVector14 = "/figma2/30cca023d7ac137c8c42a4dc62b8560f93dc3d30.svg";
 const imgVector16 = "/figma2/5d12b99b0bd8723d3c39b44ec82ca5ec7b281601.svg";
 const imgVector15 = "/figma2/9582a701c9c19c4782db4161aee1484695bc4e7d.svg";
 const imgGroup80 = "/figma2/f101d4164546ef3cc9c9ba8c64e644fc0395bbe8.svg";
-const imgVector1 = "/figma2/a52750c3e59ca20de7f40ead7004494444e2e924.svg";
-const imgGroup5 = "/figma2/cfbe3b67ee10f80d8c13da54cdfb8bd62d0e010b.svg";
-const imgGroup6 = "/figma2/c8bf21ce19770e767d0827c648f5235b11447ca9.svg";
 const imgPolygon1 = "/figma2/47da064531709d576df1263e8eb20bf46e460ef3.svg";
 
 export default function Page2Content() {
@@ -760,34 +757,6 @@ export default function Page2Content() {
           <div className="relative size-[54px]">
             <div className="absolute inset-[-1.39%]">
               <img loading="lazy" alt="" className="block max-w-none size-full" src={imgGroup80} />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="absolute bottom-0 h-[7127px] left-0 w-[1440px] pointer-events-none top-0" data-node-id="2106:1931">
-        <div className="contents pointer-events-auto">
-          <div className="absolute bg-[#1f272c] h-[87px] left-0 top-0 w-[1440px]" data-node-id="2106:1725" data-name="Banner" />
-          <a href="#" className="group -translate-x-1/2 absolute contents left-[calc(87.5%-11px)] top-[21px]" data-node-id="2106:1726">
-            <div className="-translate-x-1/2 absolute border border-[#b6d997] border-solid h-[46px] left-[calc(87.5%-11px)] rounded-[4px] top-[21px] w-[240px] transition-opacity duration-150 group-hover:opacity-80" data-node-id="2106:1727" />
-            <p className="-translate-x-1/2 [word-break:break-word] absolute font-instrument font-medium leading-[normal] left-[calc(87.5%-11px)] text-[#b6d997] text-[15px] text-center top-[35px] uppercase whitespace-nowrap transition-opacity duration-150 group-hover:opacity-80" data-node-id="2106:1728" style={{ fontVariationSettings: '"wdth" 100' }}>
-              Unlock the 90-day plan
-            </p>
-          </a>
-          <div className="absolute contents inset-[0.42%_78.75%_99.2%_5.35%]" data-node-id="2106:1729">
-            <div className="absolute contents inset-[0.42%_78.75%_99.2%_5.35%]" data-node-id="2106:1730">
-              <div className="absolute inset-[0.42%_78.75%_99.2%_5.35%] overflow-clip" data-node-id="2106:1731" data-name="Layer_1">
-                <div className="absolute inset-[0_81.51%_0_0]" data-node-id="2106:1732" data-name="Vector">
-                  <img loading="lazy" alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector1} />
-                </div>
-                <div className="absolute contents inset-[16.99%_0_16.94%_22.92%]" data-node-id="2106:1733" data-name="Group">
-                  <div className="absolute inset-[17.96%_59.06%_18.06%_22.92%]" data-node-id="2106:1734" data-name="Group">
-                    <img loading="lazy" alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup5} />
-                  </div>
-                  <div className="absolute inset-[16.99%_0_16.94%_42.74%]" data-node-id="2106:1737" data-name="Group">
-                    <img loading="lazy" alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup6} />
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
